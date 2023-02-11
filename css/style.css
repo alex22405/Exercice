@@ -1,0 +1,76 @@
+body {
+    background: black;
+}
+
+
+h1, h2, p, .flex_bar, .flex {
+    color: aliceblue;
+}
+
+img {
+    display: block;
+    /* margin auto = centrer l'image */
+    margin: auto;
+}
+
+.flex { 
+    background-color: black;
+    color: aliceblue;
+    margin: auto;
+    width: 60rem;
+    padding-top: 3%;
+    text-align: justify;
+}
+
+.flex_bar {
+    display: block;
+    margin-left: 68.8%;
+    margin-bottom: 2.5%;
+}
+
+.menu {
+    display: inline;
+    font-size: 1.5em;
+    border: 3px solid green;
+    opacity: 0.7;
+}
+.menu a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.jouez {
+    display: inline;
+    margin-left: 30%;
+    font-size: 3rem;
+    -webkit-appearance: button;
+}
+
+.maj {
+    font-size: 4em;
+    margin-left: 25%;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+.logo {
+    display: inline;
+
+}
+
+.tableau {
+    display: inline;
+    margin-left: 2%;
+    color: aliceblue;
+    font-size: 2em;
+}
+
+.tableau2 {
+    display: inline;
+    margin-left: 2%;
+    color: aliceblue;
+    font-size: 1em;
+    text-align: center;
+}
+

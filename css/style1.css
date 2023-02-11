@@ -1,0 +1,9 @@
+body {
+    display: block;
+    margin-top: 10%;
+    margin-right: 40%;
+    margin-left: 40%;
+    background: linear-gradient(to right, #1c92d2, #f2fcfe);
+    border: 3px solid rgba(189, 26, 181, 0.5);
+    box-shadow: 10px 0px 14px 0 rgba(189, 26, 181, 0.5);
+}

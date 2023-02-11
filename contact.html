@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style1.css">
+    <title>Contact</title>
+</head>
+
+    <body class="body1">
+        <header><h1>Formulaire de contact</h1></header>
+
+        <form action="" method="post">
+            <p>
+                <label for="name">Nom</label>
+                <input type="text" name="nom_de_famille" id="nom">
+            </p>
+            <p>
+                <label for="prenom">Prénom</label>
+                <input type="text" name="prenom" id="prenom">
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </p>
+            <p>
+                <label for="tel">Téléphone</label>
+                <input type="tel" name="tel" id="tel">
+            </p>
+
+            <div>
+                Quel est votre sexe ?:
+                <div>
+                    <input type="radio" id="h" name="sexe">
+                    <label for="h">Homme</label>
+                    <input type="radio" id="f" name="sexe">
+                    <label for="f">Femme</label>
+                </div>
+            </div>
+
+            <div>
+                <p>Choisissez votre ville:</p> 
+                        <select name="villes[]" id="">
+                            <option value="" selected>---choisir---</option>
+                            <option value="paris">Paris</option>
+                            <option value="londres">Londres</option>
+                            <option value="new_york">New York</option>
+                        </select>
+            </div>
+            
+            <div>
+                <p>Sur quelles consoles jouez-vous?</p>
+                <div>
+                    <input type="checkbox" id="ps5" name="console[]" value="ps5">
+                    <label for="ps5">Playstation 5</label>
+                </div>        
+                <div>
+                    <input type="checkbox" id="xbox" name="console[]" value="xbox">
+                    <label for="xbox">Xbox One</label>
+                </div>        
+                <div>
+                    <input type="checkbox" id="pc" name="console[]" value="pc">
+                    <label for="pc">PC</label>
+                </div>       
+            </div>
+            <p><button type="submit">Enregistrer</button></p>
+        </form>
+
+
+        <footer>
+            <a href="accueil.html">Accueil</a>
+            <a href="glossaire.html">Glossaire</a>
+        </footer>
+    </body>
+
+</html>
